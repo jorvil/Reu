@@ -5,17 +5,17 @@
     <string name="welcome">Bienvenido</string>
     <string name="user">Usuario</string>
     <string name="password">Contraseña</string>
-    <string name="login">Ingresar</string>
-    <string name="create_account">Crear cuenta</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="logup">Registrate</string>
 
     <string name="lema">Tu punto de encuentro!!!</string>
 
-    <string name="reu">Mi Reus</string>
+    <string name="reu">Mis Reus</string>
     <string name="people">Mi Gente</string>
     <string name="gallery">Galeria</string>
     <string name="notifications">Notificaciones</string>
     <string name="options">Opciones</string>
-    <string name="log_out">Cerrar sesion</string>
+    <string name="log_out">Cerrar sesión</string>
 
     <string name="number">DNI</string>
     <string name="name">Nombre</string>

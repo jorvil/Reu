@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         btnAceptar = findViewById(R.id.btnAceptar);
-        txtCrear = findViewById(R.id.txtCrear);
+        txtCrear = findViewById(R.id.btnRegistrar);
 
         btnAceptar.setOnClickListener(this);
         txtCrear.setOnClickListener(this);
@@ -31,11 +31,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         finish();
     }
 
+    private void openRegistrarUsuario() {
+        Intent intent = new Intent(getBaseContext(), RegistrarActorActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.txtCrear:
-                //openRegistrarUsuario();
+            case R.id.btnRegistrar:
+                openRegistrarUsuario();
                 break;
             case R.id.btnAceptar:
                 //loguear(edtNombre.getText().toString(), edtPassword.getText().toString());

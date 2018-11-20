@@ -21,7 +21,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".SplashActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,13 +30,24 @@
         <activity
             android:name=".PrincipalActivity"
             android:label="@string/title_activity_principal"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".RegistrarActorActivity"></activity>
+        <activity android:name=".RegistrarUsuarioActivity"></activity>
 
-        </activity>
-        <activity android:name=".RegistrarActorActivity">
+        <service
+            android:name=".MiFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MiFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
 
-
-        </activity>
     </application>
+
 
 </manifest>

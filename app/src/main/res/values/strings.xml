@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Reu</string>
+    <string name="app_name">Reus!!!</string>
 
     <string name="welcome">Welcome</string>
     <string name="user">User</string>
     <string name="password">Password</string>
     <string name="login">Log In</string>
-    <string name="create_account">Create Account</string>
+    <string name="logup">Log Up</string>
 
     <string name="lema">Your meeting point!!!</string>
 
