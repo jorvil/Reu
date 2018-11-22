@@ -7,7 +7,7 @@
     <string name="login">Log In</string>
     <string name="logup">Log Up</string>
 
-    <string name="lema">Your meeting point!!!</string>
+    <string name="lema">Your meeting point!</string>
 
     <string name="reu">My Reus</string>
     <string name="people">My People</string>
@@ -16,6 +16,22 @@
     <string name="options">Options</string>
     <string name="log_out">Log out</string>
 
+    <!-- Reu -->
+    <string name="new_reu">New Reu</string>
+    <string name="search_reu">Search Reu</string>
+    <string name="record_reu">Record Reu</string>
+
+    <!-- Registar Reu -->
+    <string name="reu_name">Reu Name</string>
+    <string name="code_name">Code Name</string>
+    <string name="reu_type">Reu Type</string>
+    <string name="place">Place</string>
+    <string name="go_map">Go to the Map</string>
+    <string name="number_people">Numbres People</string>
+    <string name="invite_people">Invite People</string>
+
+
+    <!-- Registar Actor -->
     <string name="number">Number</string>
     <string name="name">Name</string>
     <string name="last_name">Last Name</string>
@@ -26,6 +42,7 @@
     <string name="email">Email</string>
 
     <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
 
     <string name="title_activity_principal">PrincipalActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>

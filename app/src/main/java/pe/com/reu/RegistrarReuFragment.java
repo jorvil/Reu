@@ -1,30 +1,23 @@
-package pe.com.reu.Fragment;
+package pe.com.reu;
 
-import android.content.Intent;
+import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-
-import pe.com.reu.R;
-import pe.com.reu.RegistrarActorActivity;
-import pe.com.reu.RegistrarReuFragment;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link ReuFragment.OnFragmentInteractionListener} interface
+ * {@link RegistrarReuFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link ReuFragment#newInstance} factory method to
+ * Use the {@link RegistrarReuFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ReuFragment extends Fragment  implements View.OnClickListener {
+public class RegistrarReuFragment extends Fragment implements View.OnClickListener{
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -36,9 +29,7 @@ public class ReuFragment extends Fragment  implements View.OnClickListener {
 
     private OnFragmentInteractionListener mListener;
 
-    private ImageView imgRegistrarReu;
-
-    public ReuFragment() {
+    public RegistrarReuFragment() {
         // Required empty public constructor
     }
 
@@ -48,11 +39,11 @@ public class ReuFragment extends Fragment  implements View.OnClickListener {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ReuFragment.
+     * @return A new instance of fragment RegistrarReuFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ReuFragment newInstance(String param1, String param2) {
-        ReuFragment fragment = new ReuFragment();
+    public static RegistrarReuFragment newInstance(String param1, String param2) {
+        RegistrarReuFragment fragment = new RegistrarReuFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -73,14 +64,7 @@ public class ReuFragment extends Fragment  implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_reu, container, false);
-
-        imgRegistrarReu = view.findViewById(R.id.imgRegistrarReu);
-
-        imgRegistrarReu.setOnClickListener(this);
-
-        return  view;
-
+        return inflater.inflate(R.layout.fragment_registrar_reu, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -124,26 +108,9 @@ public class ReuFragment extends Fragment  implements View.OnClickListener {
         void onFragmentInteraction(Uri uri);
     }
 
-
     @Override
     public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.imgRegistrarReu:
-                openRegistrarReu();
-                break;
-        }
 
     }
-
-    private void openRegistrarReu() {
-
-        RegistrarReuFragment fragment = new RegistrarReuFragment();
-        FragmentManager fragmentManager = getFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.contenedor, fragment);
-        fragmentTransaction.addToBackStack(null);
-        fragmentTransaction.commit();
-    }
-
 
 }
