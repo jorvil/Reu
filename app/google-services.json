@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1039296874865",
+    "firebase_url": "https://reus-77e83.firebaseio.com",
+    "project_id": "reus-77e83",
+    "storage_bucket": "reus-77e83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039296874865:android:6b74705b61df0dc5",
+        "android_client_info": {
+          "package_name": "pe.com.reu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039296874865-ldu6ue2j2jtfefh0nq3bh4d8pd3cm4ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDhzP3a2e_iOV4y_0CETO20475UHEFc5U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
