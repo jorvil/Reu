@@ -26,6 +26,7 @@
             android:text="@string/new_reu" />
 
         <ImageView
+            android:id="@+id/imgRegistrarReu"
             android:layout_width="240dp"
             android:layout_height="154dp"
             android:background="@drawable/crear_reu"
@@ -38,6 +39,7 @@
             android:text="@string/search_reu" />
 
         <ImageView
+            android:id="@+id/imgBuscarReu"
             android:layout_width="240dp"
             android:layout_height="154dp"
             android:background="@drawable/buscar_reu"
@@ -50,6 +52,7 @@
             android:text="@string/record_reu" />
 
         <ImageView
+            android:id="@+id/imgHistorialReu"
             android:layout_width="240dp"
             android:layout_height="154dp"
             android:background="@drawable/historial_reu"

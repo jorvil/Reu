@@ -22,6 +22,16 @@
     <string name="search_reu">Buscar Reu</string>
     <string name="record_reu">Historial Reu</string>
 
+    <!-- Registar Reu -->
+    <string name="reu_name">Nombre de la Reu</string>
+    <string name="code_name">Nombre Clave</string>
+    <string name="reu_type">Tipo de Reu</string>
+    <string name="place">Lugar</string>
+    <string name="go_map">Ir al Mapa</string>
+    <string name="number_people">Cantidad de Invitados</string>
+    <string name="invite_people">Invitar Gente</string>
+
+
     <!-- Registar Actor -->
     <string name="number">DNI</string>
     <string name="name">Nombre</string>
@@ -33,5 +43,7 @@
     <string name="email">Correo electronico</string>
 
     <string name="save">Grabar</string>
+    <string name="cancel">Cancelar</string>
+
 
 </resources>
