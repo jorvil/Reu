@@ -16,13 +16,6 @@
         android:layout_marginTop="26dp"
         android:text="Galeria" />
 
-    <ImageView
-        android:layout_width="240dp"
-        android:layout_height="154dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="62dp"
-        android:background="@drawable/crear_reu" />
 
 
 </RelativeLayout>
